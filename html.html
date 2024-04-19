@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            position: relative;
+            max-width: 100%;
+            /* Garante que o container não ultrapasse a largura da tela */
+        }
+
+        .imagem {
+            width: 100%;
+            height: 350px;
+            display: block;
+            filter: brightness(30%);
+            
+        }
+
+        .texto {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 6vw;
+            /* Tamanho de fonte responsivo */
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5C2525;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+.section1{
+    background-color:#330A0A ;
+    color:white;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 10px ;
+    text-align: justify;
+    text-align: center;
+    display: inline-block;
+  
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    
+}
+
+.pei2{
+    display: inline-block;
+}
+main{
+    display:grid
+}
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar" >
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="container">
+        <img class="imagem" src="iamgens/esse.jpeg" alt="Sua Imagem">
+        <div class="texto">
+            Ana Macedo
+        </div>
+    </div>
+    <hr>
+    <main>
+        <section class="pei2">
+            <section class="section1">
+                <h1>Sobre Mim</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nesciunt assumenda aliquam, ea a cumque vel cum asperiores, dolor eveniet nam quaerat. Sint, hic obcaecati. Omnis laudantium officiis laboriosam expedita.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nam at tenetur modi harum odio amet corrupti ad necessitatibus ipsa saepe dolorem numquam dolor, totam quia libero itaque? Dignissimos, amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas praesentium officia ratione, vero quia doloribus dolor perferendis sequi adipisci laboriosam debitis aliquam perspiciatis fugit sit blanditiis dolore aperiam exercitationem eligendi!</p>
+            </section>
+        </section>
+
+        <aside>
+            <img class="pei2" src="iamgens/foto da vitoria.jpeg" alt="foto da arquiteta Vitória">  
+        </aside>
+    </main>
+
+</body>
+
+</html>
